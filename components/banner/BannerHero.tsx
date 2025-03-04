@@ -26,9 +26,9 @@ export default function BannerHero() {
             <div className="flex gap-4 max-[600px]:flex-col">
               <Button
                 size="lg"
-                className="bg-emerald-600 hover:bg-emerald-700 px-8 py-6 text-base-semibold text-white flex items-center gap-2"
+                className="bg-emerald-600 hover:bg-emerald-700 px-8 py-6 text-base-semibold text-white"
               >
-                <Link href="/catalog?page=1&sort=default">
+                <Link href="/catalog?page=1&sort=default" className="flex items-center gap-2">
                   <Paw className="w-5 h-5" />
                   Купити аксесуари
                 </Link>
@@ -36,9 +36,9 @@ export default function BannerHero() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-emerald-400 px-8 py-6 text-base-semibold flex items-center text-emerald-100 hover:bg-emerald-800/30 gap-2"
+                className="border-emerald-400 px-8 py-6 text-base-semibold text-emerald-100 hover:bg-emerald-800/30"
               >
-                <Link href="/catalog?page=1&sort=default">
+                <Link href="/catalog?page=1&sort=default" className="flex items-center gap-2">
                   <Heart className="w-5 h-5" />
                   Переглянути корми
                 </Link>
